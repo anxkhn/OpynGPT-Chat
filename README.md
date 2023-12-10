@@ -1,5 +1,7 @@
 # OpynGPT Telegram Chat Bot
 
+![Presentation1](https://github.com/anxkhn/OpynGPT-Chat/assets/83116240/b1e4b6a6-c9e6-4a33-9388-644d337bac12)
+
 OpynGPT Telegram Chat Bot is a simple Telegram bot that utilizes the Telebot library and [OpynGPT](https://github.com/anxkhn/OpynGPT) python module for generating natural language responses based on user input.
 
 ## Getting Started
