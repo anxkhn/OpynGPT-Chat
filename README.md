@@ -19,6 +19,22 @@ pip install telebot opyngpt python-dotenv
 3. Follow the instructions to set a name and username for your bot.
 4. Once the bot is created, BotFather will provide you with a token. Copy this token.
 
+### Clone the OpynGPT-Chat Repository
+
+1. Open a terminal window.
+
+2. Clone the OpynGPT-Chat repository:
+
+   ```bash
+   git clone https://github.com/anxkhn/OpynGPT-Chat.git
+   ```
+
+3. Navigate to the cloned directory:
+
+   ```bash
+   cd OpynGPT-Chat
+   ```
+
 ### Create a .env File
 
 Create a file named `.env` in the same directory as your script. Add the following line to the `.env` file:
@@ -31,27 +47,17 @@ Replace `your_telegram_bot_token` with the actual token you obtained from BotFat
 
 ## Usage
 
-1. Clone this repository or download the `main.py` file.
-
-2. Modify the Python script (`main.py`) to include the environment variable loading for the Telegram bot token:
-
-   ```python
-   import os
-   from dotenv import load_dotenv
-
-   load_dotenv()
-   TOKEN = os.getenv('TOKEN')
-   if TOKEN is None:
-       raise ValueError("Telegram bot token (TOKEN) not set in environment variables.")
-   ```
-
-3. Run your Python script:
+1. Run the Python script:
 
    ```bash
-   python main.py
+   python bot_script.py
    ```
 
-4. Start a conversation with your bot on Telegram by searching for the bot's username, and the bot will respond to your messages using OpynGPT.
+2. Start a conversation with your bot on Telegram by searching for the bot's username, and the bot will respond to your messages using OpynGPT.
+
+## Testing Live Bot
+
+You can checkout the live OpynGPT Telegram Chat Bot by accessing [@OpynGPT_Chatbot](https://t.me/OpynGPT_Chatbot) on Telegram. Send messages to the bot, and it will respond using OpynGPT.
 
 ## Contributing
 
