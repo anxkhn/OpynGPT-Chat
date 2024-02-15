@@ -2,3 +2,4 @@ opyngpt==0.1.5
 pyTelegramBotAPI==4.15.4
 python-dotenv==1.0.1
 Requests==2.31.0
+gunicorn==19.7.1
